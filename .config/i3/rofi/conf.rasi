@@ -1,0 +1,47 @@
+configuration {
+  modi: "window,drun,ssh";
+  combi-modi: "window,drun";
+  font: "mono 16";
+
+  show-icons: true;
+
+	kb-row-tab: "";
+	kb-row-select: "Tab";
+}
+
+@theme "Pop-Dark"
+
+window {
+  width: 50%;
+  height: 40%;
+}
+
+listview {
+  lines: 10;
+  columns: 2;
+}
+
+element {
+  padding: 4px;
+}
+
+element-icon {
+  size: 24px;
+}
+
+element-icon selected {
+  background-color: @selected-normal-background;
+}
+
+inputbar {
+  padding: 8px 16px;
+  border: 4px;
+  border-radius: 4px;
+  border-color: #3e3733;
+}
+
+prompt, entry, case-indicator {
+  font: "mono 24";
+}
+
+/* vim:ft=css
